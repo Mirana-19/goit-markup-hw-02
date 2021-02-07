@@ -43,7 +43,6 @@ body {
 
 .footer-logo {
   color: var(--white-color);
-  background-color: var(--h1-background-color);
 }
 
 .header-logo-part,
@@ -83,7 +82,15 @@ body {
   color: var(--accent-color);
 }
 
-/* Maim Page - HERO */
+/* INDEX.HTML 
+
+
+Maim Page - HERO */
+
+.features {
+  background-color: var(--h1-background-color);
+}
+
 .hero {
   font-size: 44px;
   font-weight: 900;
@@ -91,7 +98,6 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-color);
-  background-color: var(--h1-background-color);
 }
 
 .hero-button {
@@ -145,16 +151,36 @@ body {
 }
 
 /* Footer - address and contact links */
+.address {
+  background-color: var(--h1-background-color);
+}
+
 .address-text {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
-  background-color: var(--h1-background-color);
 }
 
 .contact-links-footer {
   font-size: 14px;
   line-height: 1.7;
   color: var(--footer-text-color);
-  background-color: var(--h1-background-color);
+}
+
+/* PORTFOLIO.HTML
+
+Main Page*/
+
+.filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--title-color);
+  background-color: var(--background-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }

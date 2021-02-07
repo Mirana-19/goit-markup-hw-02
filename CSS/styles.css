@@ -175,7 +175,7 @@ Maim Page - HERO */
 
 /* PORTFOLIO.HTML
 
-Main Page - our works*/
+Main Page-filter buttons*/
 
 .projects-filter-button {
   font-size: 16px;
@@ -190,6 +190,8 @@ Main Page - our works*/
   color: var(--white-color);
   background-color: var(--accent-color);
 }
+
+/* our works images */
 
 .project-img-title {
   font-size: 18px;

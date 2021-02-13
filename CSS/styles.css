@@ -89,6 +89,7 @@ Maim Page - HERO */
 
 .features {
   background-color: var(--h1-background-color);
+  text-align: center;
 }
 
 .features-hero {
